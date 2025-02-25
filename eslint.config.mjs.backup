@@ -1,0 +1,20 @@
+import js from '@eslint/js';
+import nextPlugin from '@next/eslint-plugin-next';
+import { FlatCompat } from '@eslint/eslintrc';
+
+const compat = new FlatCompat();
+
+export default [
+  js.configs.recommended,
+  ...compat.config({
+    extends: ['next', 'next/core-web-vitals']
+  }),
+  {
+    plugins: {
+      next: nextPlugin
+    },
+    rules: {
+      // Your custom rules here
+    }
+  }
+]; 
