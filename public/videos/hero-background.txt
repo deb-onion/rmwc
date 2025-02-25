@@ -1,0 +1,11 @@
+This is a placeholder for hero-background.mp4
+
+Required video specifications:
+- Format: MP4
+- Resolution: 1920x1080 (Full HD)
+- Duration: 10-15 seconds
+- Content: Scenic mountain wedding footage
+- Encoding: H.264
+- Audio: None (muted background video)
+
+Please replace this text file with an actual video file meeting these specifications. 
